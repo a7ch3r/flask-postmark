@@ -1,6 +1,8 @@
 flask-postmark
 ==============
 
+require: https://github.com/themartorana/python-postmark 
+
 flask配置文件中设置：
 
    POSTMARK_API_KEY    = 'your-key'
