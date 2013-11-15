@@ -15,7 +15,7 @@ flask配置文件中设置：
 
 发送：
 
-  `pm = mail.create_mail(to="to@mail.com", subject="subject", tag="tag", html_body="<p>hello postmark</p>")`
-  `pm.send()`
+  pm = mail.create_mail(to="to@mail.com", subject="subject", tag="tag", html_body="hello postmark")
+  pm.send()
   
   
