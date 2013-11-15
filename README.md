@@ -9,11 +9,13 @@ flask配置文件中设置：
     
 
 初始化：
+
   mail = Postmark()
   mail.init_app(current_app)
 
 发送：
-  pm = mail.create_mail(to="to@mail.com", subject="subject", tag="tag", html_body="<p>hello postmark</p>")
-  pm.send()
+
+  `pm = mail.create_mail(to="to@mail.com", subject="subject", tag="tag", html_body="<p>hello postmark</p>")`
+  `pm.send()`
   
   
